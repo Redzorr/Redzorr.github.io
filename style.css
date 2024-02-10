@@ -1,0 +1,57 @@
+/* Resetting default margin and padding for UL */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333; /* Background color for the navigation bar */
+    display: flex; /* Use flexbox */
+    justify-content: space-around; /* Spread items evenly */
+}
+
+/* Styling for navigation links */
+nav ul li a {
+    display: block;
+    padding: 10px 20px; /* Adjust padding as needed */
+    text-decoration: none;
+    color: #fff; /* Text color for the links */
+    font-family: Calibri, sans-serif; /* Apply Calibri font */
+}
+
+/* Hover effect for navigation links */
+nav ul li a:hover {
+    background-color: #555; /* Background color on hover */
+}
+
+/* Style for the main heading */
+h1 {
+    text-align: center; /* Center align the heading */
+    margin-top: 20px; /* Add some space at the top */
+    font-family: Calibri, sans-serif; /* Apply Calibri font */
+}
+
+/* Style for the paragraphs */
+p {
+    text-align: center; /* Center align paragraphs */
+    margin: 10px 0; /* Add margin top and bottom */
+    font-family: Calibri, sans-serif; /* Apply Calibri font */
+}
+
+/* Style for the image */
+img {
+    display: block; /* Ensure the image is centered */
+    margin: 0 auto; /* Center the image horizontally */
+    border-radius: 10px; /* Add a border radius for rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* Style for the email link */
+p a {
+    color: #007bff; /* Change link color */
+    font-family: Calibri, sans-serif; /* Apply Calibri font */
+}
+
+/* Style for the GitHub link */
+p a:hover {
+    color: #0056b3; /* Change link color on hover */
+    font-family: Calibri, sans-serif; /* Apply Calibri font */
+}
